@@ -50,6 +50,9 @@ var beepbox = (function (exports) {
         { name: "Whole Tone", realName: "whole tone", flags: [true, false, true, false, true, false, true, false, true, false, true, false] },
         { name: "Octatonic", realName: "octatonic", flags: [true, false, true, true, false, true, true, false, true, true, false, true] },
         { name: "Hexatonic", realName: "hexatonic", flags: [true, false, false, true, true, false, false, true, true, false, false, true] },
+		{ name: "Nultonic", realName: "nultonic", flags: [false, false, false, false, false, false, false, false, false, false, false, false] },
+		{ name: "Heptahexacontatonic", realName: "heptahexacontatonic", flags: [false, false, false, false, false, true, false, false, false, false, true, true] },
+		{ name: "Tetrahectaicosatonic", realName: "tetrahectaicosatonic", flags: [false, false, false, true, true, false, true, false, false, true, false, false] },
     ]);
     Config.keys = toNameMap([
         { name: "C", isWhiteKey: true, basePitch: 12 },
